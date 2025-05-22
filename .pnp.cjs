@@ -31,7 +31,6 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:16.1.0"],\
           ["prettier", "npm:3.5.3"],\
           ["prettier-pnp-repro", "workspace:."],\
-          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["vite", "virtual:7127a22bf3c793b182153fe6d2e5dc53e1af3e9aa6823942d7548953480b728a3a3ecca765138980e8d1b7eb64acf67eea4441cc4ff9cee7c7df4fd37085f76a#npm:6.3.5"]\
         ],\
         "linkType": "SOFT"\
@@ -1395,7 +1394,6 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:16.1.0"],\
           ["prettier", "npm:3.5.3"],\
           ["prettier-pnp-repro", "workspace:."],\
-          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["vite", "virtual:7127a22bf3c793b182153fe6d2e5dc53e1af3e9aa6823942d7548953480b728a3a3ecca765138980e8d1b7eb64acf67eea4441cc4ff9cee7c7df4fd37085f76a#npm:6.3.5"]\
         ],\
         "linkType": "SOFT"\
@@ -1629,15 +1627,6 @@ const RAW_RUNTIME_STATE =
           ["fdir", "virtual:13dba315b30721812929c770ddde019c62f0f5aaf3d322e194cc0bf6cf728a558519bedd52ec8aab338ba88d51755f53d336e981f79120c140fd5c81616eeabd#npm:6.4.4"],\
           ["picomatch", "npm:4.0.2"],\
           ["tinyglobby", "npm:0.2.13"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["typescript", [\
-      ["patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5", {\
-        "packageLocation": "../../../.local/share/yarn/berry/cache/typescript-patch-f64146f279-10c0.zip/node_modules/typescript/",\
-        "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
         "linkType": "HARD"\
       }]\
