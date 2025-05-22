@@ -2,6 +2,8 @@
 
 ![](./image.png)
 
+for https://github.com/yarnpkg/berry/issues/6805
+
 minimal reproduction repo, reliably crashes extension host in code-insiders.
 major contributor seems to be `.pnp.loader.mjs` as uninstalling `@vitejs/plugin-react-swc` removes it and makes the crash stop.
 
